@@ -154,9 +154,10 @@
                 </div>
                 <div class="hidden xl:flex items-center gap-3 absolute top-6 right-8 z-20">
                     <button
-                        class="w-10 h-10 flex items-center justify-center rounded-full bg-secondary dark:bg-white/5 text-primary dark:text-white hover:bg-accent hover:text-white transition-colors border border-gray-200 dark:border-white/10"
+                        class="w-10 h-10 flex items-center justify-center rounded-full overflow-hidden bg-secondary dark:bg-white/5 text-primary dark:text-white hover:bg-accent hover:text-white transition-colors border border-gray-200 dark:border-white/10"
                         aria-label="Profile">
-                        <i class="fas fa-user text-base"></i>
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80"
+                            class="w-full h-full object-cover grayscale" alt="Profile Avatar">
                     </button>
                     <button
                         class="dashboard-theme-toggle w-10 h-10 flex items-center justify-center rounded-full bg-secondary dark:bg-white/5 text-primary dark:text-white hover:bg-accent hover:text-white transition-colors border border-gray-200 dark:border-white/10"
@@ -484,16 +485,13 @@
                     </a>
                 </nav>
 
-                <div class="mt-auto border-t border-white/5 pt-8 flex items-center gap-4 text-start">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80"
-                        class="w-12 h-12 rounded-full grayscale border border-accent/40" alt="Avatar">
-                    <div>
-                        <h6 class="text-sm font-black uppercase tracking-widest text-white">Marcus Vane</h6>
-                        <p class="text-[10px] opacity-40 uppercase tracking-widest">Global Admin</p>
-                    </div>
-                    <a href="index.html" class="flex items-center gap-2 ml-auto text-white/20 hover:text-red-500">
-                        <i class="fas fa-power-off text-xl"></i>
-                    </a>
+                <div class="mt-auto border-t border-white/5 pt-8 flex items-center text-start">
+                    <button
+                        class="w-10 h-10 flex items-center justify-center rounded-full overflow-hidden bg-white/5 text-white hover:bg-accent hover:text-white transition-colors border border-white/10"
+                        aria-label="Profile">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80"
+                            class="w-full h-full object-cover grayscale" alt="Profile Avatar">
+                    </button>
                 </div>
             </div>
         </div>
